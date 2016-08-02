@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <RadioGroup
+        android:id="@+id/rg_dh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/sy"
+            style="@style/radioGroup_dh"
+            android:drawableTop="@drawable/rg_sy"
+            android:checked="true"
+            android:text="首页"
+            />
+
+        <RadioButton
+            android:id="@+id/lt"
+            style="@style/radioGroup_dh"
+            android:drawableTop="@drawable/rg_lt"
+            android:text="论坛" />
+
+        <RadioButton
+            android:id="@+id/ck"
+            style="@style/radioGroup_dh"
+            android:drawableTop="@drawable/rg_ck"
+            android:text="车库" />
+
+        <RadioButton
+            android:id="@+id/sp"
+            style="@style/radioGroup_dh"
+            android:drawableTop="@drawable/rg_sp"
+            android:text="视频" />
+
+        <RadioButton
+            android:id="@+id/sc"
+            style="@style/radioGroup_dh"
+            android:drawableTop="@drawable/rg_sc"
+            android:text="商城" />
+    </RadioGroup>
+
+</LinearLayout>
