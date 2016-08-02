@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".main.MainActivity">
 
@@ -11,43 +12,92 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
-    <RadioGroup
-        android:id="@+id/rg_dh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/rg_dh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/sy"
-            style="@style/radioGroup_dh"
-            android:drawableTop="@drawable/rg_sy"
-            android:checked="true"
-            android:text="首页"
-            />
+            <com.group.yztcedu.fblife.MyRadioButton
+                android:id="@+id/btn_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="首页"
+                android:textColor="@drawable/rg_text"
+                android:textSize="13sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/rg_sy" />
 
-        <RadioButton
-            android:id="@+id/lt"
-            style="@style/radioGroup_dh"
-            android:drawableTop="@drawable/rg_lt"
-            android:text="论坛" />
+            <com.group.yztcedu.fblife.MyRadioButton
+                android:id="@+id/btn_forum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="论坛"
+                android:textColor="@drawable/rg_text"
+                android:textSize="12sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/rg_lt" />
 
-        <RadioButton
-            android:id="@+id/ck"
-            style="@style/radioGroup_dh"
-            android:drawableTop="@drawable/rg_ck"
-            android:text="车库" />
+            <com.group.yztcedu.fblife.MyRadioButton
+                android:id="@+id/btn_carbarn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="车库"
+                android:textColor="@drawable/rg_text"
+                android:textSize="12sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/rg_ck" />
 
-        <RadioButton
-            android:id="@+id/sp"
-            style="@style/radioGroup_dh"
-            android:drawableTop="@drawable/rg_sp"
-            android:text="视频" />
+            <com.group.yztcedu.fblife.MyRadioButton
+                android:id="@+id/btn_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="视频"
+                android:textColor="@drawable/rg_text"
+                android:textSize="12sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/rg_sp" />
 
-        <RadioButton
-            android:id="@+id/sc"
-            style="@style/radioGroup_dh"
-            android:drawableTop="@drawable/rg_sc"
-            android:text="商城" />
-    </RadioGroup>
+            <com.group.yztcedu.fblife.MyRadioButton
+                android:id="@+id/btn_store"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="论坛"
+                android:textColor="@drawable/rg_text"
+                android:textSize="12sp"
+                myradio:drawableSize="25dp"
+                myradio:drawableTop="@drawable/rg_sc" />
+        </RadioGroup>
 
 </LinearLayout>
