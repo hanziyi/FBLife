@@ -1,4 +1,6 @@
 package com.group.yztcedu.fblife.main.carbarn;
 
-public class CarbarnFragment {
+import com.group.yztcedu.fblife.base.BaseFragment;
+
+public class CarbarnFragment extends BaseFragment{
 }

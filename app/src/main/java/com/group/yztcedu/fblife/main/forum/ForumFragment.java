@@ -1,4 +1,6 @@
 package com.group.yztcedu.fblife.main.forum;
 
-public class ForumFragment {
+import com.group.yztcedu.fblife.base.BaseFragment;
+
+public class ForumFragment extends BaseFragment{
 }

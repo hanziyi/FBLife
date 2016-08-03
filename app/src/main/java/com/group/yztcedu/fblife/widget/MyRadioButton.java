@@ -1,4 +1,4 @@
-package com.group.yztcedu.fblife;
+package com.group.yztcedu.fblife.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,6 +6,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.RadioButton;
+
+import com.group.yztcedu.fblife.R;
 
 public class MyRadioButton extends RadioButton {
 

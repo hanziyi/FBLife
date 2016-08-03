@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".main.splash.SplashActivity"/>
+        <activity android:name=".main.welcome.WelcomeActivity"/>
     </application>
 
 </manifest>
