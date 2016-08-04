@@ -115,7 +115,8 @@ public class MainActivity extends BaseActivity implements MainContract.View {
             case R.id.btn_carbarn:
                 selectFragment(SELECTED_CARBARN);
                 break;
-            case R.id.btn_video:selectFragment(SELECTED_VIDEO);
+            case R.id.btn_video:
+                selectFragment(SELECTED_VIDEO);
                 break;
             case R.id.btn_store:
                 selectFragment(SELECTED_STORE);

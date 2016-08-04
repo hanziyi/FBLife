@@ -2,26 +2,35 @@
 
     <!-- Base application theme. -->
     <style name="ActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-    <!-- Customize your theme here. -->
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <item name="colorAccent">@color/colorAccent</item>
-</style>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
     <!--
-                android:textSize="20sp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:button="@null"
-                android:gravity="center_horizontal"
-                android:textColor="@drawable/rg_text"-->
+                android:checked="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="@drawable/rg_text"
+                android:textSize="13sp"
+               -->
     <style name="radioGroup_dh">
-        <item name="android:textSize">15sp</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:button">@null</item>
-        <item name="android:gravity">center_horizontal</item>
+        <item name="android:checked">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
         <item name="android:textColor">@drawable/rg_text</item>
+        <item name="android:textSize">13sp</item>
     </style>
 </resources>
